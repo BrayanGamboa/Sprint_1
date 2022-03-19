@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style2.css"/>
+    <script src="../js/logic.js"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2292/2292038.png" type="image/x-icon">
+    <title>Compras</title>
+  </head>
+  <body>
+    <header>
+      <div class="imagen_titul">
+        <a href="index.html"><img src="../img/logo.png" alt="Logo de la Empresa"/></a>
+      </div>
+      <h1>Almacén de Computo</h1>
+      <hr color="black" />
+      <p>"Pregunte por lo que no vea"</p>
+    </header>
+    <center>
+      <div class="CantidadProductos" id="venta">
+        <label>Cantidad de equipos comprados:</label>
+        <input type="number" name="" id="cantidad" class="cantidad" />
+        <button id="calcular" onclick="obtenerDatos()">Calcular</button>
+      </div>
+      <div class="compra">
+        <h2>Orden de Compra:</h2>
+        <img src="../img/logo.png" alt="Logo de la Empresa" id="logo"/><br />
+        <label>Valor de Compra:</label><br />
+        <input
+        type="text"
+          name="valorCompra"
+          id="valorCompra"
+          class="inputsCompra"
+          disabled
+        /><br />
+        <label>Valor de Descuento:</label><br />
+        <input
+          type="text"
+          name="valorDescuento"
+          id="valorDescuento"
+          class="inputsCompra"
+          disabled
+        /><br />
+        <label>Total:</label><br />
+        <input
+        type="text"
+          name="valorTotal"
+          id="valorTotal"
+          class="inputsCompra"
+          disabled
+        /><br />
+        <input
+        type="text"
+          name="mensajeDescuento"
+          id="mensajeDescuento"
+          class="inputsCompra"
+          disabled
+        />
+      </div>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Almacén MPHG</title>
+  <script src="../js/logic.js"></script>
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2292/2292038.png" type="image/x-icon">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+  <nav>
+    <a href="#table"><input type="button" value="Productos" id="btn_produc"></a>
+
+    <a href="#contactenos">
+      <input type="button" value="Contáctenos">
+    </a>
+    <a href="#ubicacion">
+      <input type="button" value="Ubicación">
+    </a>
+    <a href="#info">
+      <input type="button" value="Sobre Nosotros">
+    </a>
+  </nav>
+  <header>
+    <div class="imagen_titul"> <img src="../img/logo.png" alt="Logo de la
+      Empresa" id="logo" /> </div>
+    <h1>Almacén de Computo</h1>
+    <hr color="black" />
+    <p>"Pregunte por lo que no vea"</p>
+  </header>
+  <table class="table" id="table">
+    <h1>
+      En nuestra empresa podrás encontrar una gran variedad de productos
+      tecnológicos. ¡Mijo!, "pregunte por lo que no vea".
+    </h1>
+    <h1 id="tituloProducto">Nuestros Productos:</h1>
+    <tr>
+      <td>
+        <img
+          src="https://d34vmoxq6ylzee.cloudfront.net/catalog/product/cache/314dec89b3219941707ad62ccc90e585/2/Y/2Y6Z1LA-1_T1631117995.png"
+          alt="Computador 1" />
+        <p class="center"><b>Nombre:</b> HP 24-df0008la</p>
+        <ul>
+          <li>Procesador Intel® Core™ i5 de 10.ª generación</li>
+          <li>4 GB de SDRAM DDR4-2666 (1 x 4 GB)</li>
+          <li>Disco duro SATA de 1 TB y 7200 rpm</li>
+        </ul>
+        <a href="ventas2.html"><button class="btn">Comprar</button></a>
+      </td>
+      <td>
+        <img
+          src="https://d34vmoxq6ylzee.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/4/7/476L9LA-1_T1633319202.png"
+          alt="Computador 2" />
+        <p class="center"><b>Nombre:</b> Portátil HP Pavilion 14-dv0502la</p>
+        <ul>
+          <li>Procesador Intel® Core™ i5 de 11.ª generación</li>
+          <li>Gráficos Intel® Iris® Xᵉ</li>
+          <li>8 GB de RAM DDR4-3200 MHz (2 x 4 GB)</li>
+        </ul>
+        <a href="ventas2.html"><button class="btn">Comprar</button></a>
+      </td>
+      <td>
+        <img
+          src="https://d34vmoxq6ylzee.cloudfront.net/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/9/29B14LA-1_T1605899429.png"
+          alt="Computador 3" />
+        <p class="center"><b>Nombre:</b> Portátil HP 14-cf2062la</p>
+        <ul>
+          <li>Procesador Intel® Core™ i3 de 10.ª generación</li>
+          <li>Pantalla HD de 35,6 cm (14 pulg.) en diagonal</li>
+          <li>8 GB de RAM DDR4-3200 MHz (2 x 4 GB)</li>
+        </ul>
+        <a href="ventas2.html"><button class="btn">Comprar</button></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img
+          src="https://d34vmoxq6ylzee.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/3/0/309D9LA-1_T1633319228.png" />
+        <p class="center">
+          <b>Nombre:</b> Portátil HP Pavilion Gaming 15-dk1032la
+        </p>
+        <ul>
+          <li>Procesador Intel® Core™ i5 de 10.ª generación</li>
+          <li>Gráficos Intel® UHD</li>
+          <li>8 GB de RAM DDR4-2933 MHz (1 x 8 GB)</li>
+        </ul>
+        <a href="ventas2.html"><button class="btn">Comprar</button></a>
+      </td>
+      <td>
+        <img
+          src="https://d34vmoxq6ylzee.cloudfront.net/catalog/product/cache/314dec89b3219941707ad62ccc90e585/3/Y/3Y5F5LA-1_T1633317939.png"
+          alt="Computador 5" />
+        <p class="center">
+          <b>Nombre:</b> Portátil HP ENVY x360 Convertible 13
+        </p>
+        <ul>
+          <li>Procesador AMD Ryzen™ 5</li>
+          <li>Gráficos AMD Radeon™</li>
+          <li>8 GB de RAM DDR4-3200 MHz (integrada)</li>
+        </ul>
+        <a href="ventas2.html"><button class="btn">Comprar</button></a>
+      </td>
+      <td>
+        <img
+          src="https://d34vmoxq6ylzee.cloudfront.net/catalog/product/cache/314dec89b3219941707ad62ccc90e585/1/4/14-cf2060la-mochila.png"
+          alt="Computador 6" />
+        <p class="center">
+          <b>Nombre:</b> Portátil HP 14 + Mochila HP Signature de 15.6"
+        </p>
+        <ul>
+          <li>Procesador Intel® Core™ i3 de 10.ª generación</li>
+          <li>
+            Pantalla HD (1366 x 768) de 14" (35,6 cm) en diagonal con
+            microbordes, BrightView, 220 nits,
+          </li>
+        </ul>
+        <a href="ventas2.html"><button class="btn">Comprar</button></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img
+          src="https://d34vmoxq6ylzee.cloudfront.net/catalog/product/cache/314dec89b3219941707ad62ccc90e585/3/1/310G5LA-1_T1631060828.png"
+          alt="Computador 7" />
+        <p class="center"><b>Nombre:</b> Portátil HP Pavilion 15</p>
+        <ul>
+          <li>Procesador AMD Ryzen™ 3</li>
+          <li>Gráficos AMD Radeon™</li>
+          <li>8 GB de RAM DDR4-3200 MHz (1 x 8 GB)</li>
+        </ul>
+        <a href="ventas2.html"><button class="btn">Comprar</button></a>
+      </td>
+      <td>
+        <img
+          src="https://d34vmoxq6ylzee.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/3/C/3C9C4LA-1_T1628044858.png"
+          alt="Computador 8" />
+        <p class="center"><b>Nombre:</b> Portátil HP Zbook Firefly G8</p>
+        <ul>
+          <li>Procesador Intel® Core™ i7 de 11.ª generación</li>
+          <li>16 GB de RAM DDR4-3200 MHz (1 x 16 GB)</li>
+          <li>Gráficos Intel® Iris® Xᵉ</li>
+        </ul>
+        <a href="ventas2.html"><button class="btn">Comprar</button></a>
+      </td>
+      <td>
+        <img
+          src="https://d34vmoxq6ylzee.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/2/S/2S4Y8LA-1_T1629409685.png"
+          alt="Computador 6" />
+        <p class="center"><b>Nombre:</b> Portátil HP ZBook Power G7</p>
+        <ul>
+          <li>Procesador Intel® Core™ i9 de 10.ª generación</li>
+          <li>16 GB de RAM DDR4-3200 MHz (1 x 16 GB)</li>
+          <li>Unidad de estado sólido PCIe® NVMe™ TLC M.2 de 1 TB</li>
+          <li>Gráficos Intel® UHD</li>
+        </ul>
+        <center>
+          <a href="ventas2.html"><button class="btn">Comprar</button></a>
+        </center>
+      </td>
+    </tr>
+  </table>
+  <p>
+    Si deseas ver más productos, por favor da
+    <input value="click aquí." type="button" name="btnAlert" id="btnAlert" onclick="alerta()">
+
+
+
+    </button>
+
+  </p>
+  <hr color="black" />
+  <footer>
+    <div class="footer_divisiones" id="contactenos">
+      <h1>Contáctenos:</h1>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim odio
+        vitae sed explicabo nemo tempora eligendi nesciunt, asperiores
+        aspernatur atque reiciendis eius impedit porro. Officiis nam aperiam
+        reiciendis iste tenetur.
+      </p>
+    </div>
+    <div class="footer_divisiones" id="ubicacion">
+      <h1>Ubicación:</h1>
+      <br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8764972802915!2d-75.56518253570648!3d6.2799630954546775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428d01b50c643%3A0x60e14574f8da486e!2sColegio%20San%20Agustin%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1635475589071!5m2!1ses!2sco"
+        width="400" height="250" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="footer_divisiones" id="info">
+      <h1>Sobre Nosotros:</h1>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim odio
+        vitae sed explicabo nemo tempora eligendi nesciunt, asperiores
+        aspernatur atque reiciendis eius impedit porro. Officiis nam aperiam
+        reiciendis iste tenetur.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
